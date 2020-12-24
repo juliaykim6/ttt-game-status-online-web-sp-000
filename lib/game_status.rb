@@ -45,6 +45,7 @@ end
 
 def winner(board)
   if won?(board)
-    retutn board[won?(board)[0]]
+    return board[won?(board)[0]]
   end
-end
+end 
+
