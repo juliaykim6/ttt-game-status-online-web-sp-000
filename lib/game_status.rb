@@ -28,7 +28,7 @@ def full?(board)
 end
 
 def draw?(board)
-  board.none do |combos|
+  board.none? do |combos|
     combos == full? && combos == won?
   end
 end
